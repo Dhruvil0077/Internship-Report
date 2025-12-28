@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.container{
+    width: 60%;
+    height: 100px;
+    padding: 20px;
+    background-color: rgb(72, 134, 226);
+    border: 3px solid black;
+}
+.heading{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-align: center;
+}
+.navigation{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-align: center;
+    padding: 20px;
+}

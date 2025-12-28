@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../SM/download\ \(2\).jpeg);
+    background-attachment: no repeat;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    margin-top: 150px;
+}
+.login-form h1{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.login-form{
+    width: 400px;
+    padding: 15px;
+    color: white;
+    background:  #1e1e1e;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+.login-form input{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+}
+.login-form h1 {
+    margin-bottom: 25px;
+}
+
+.login-form button{
+    background-color: yellow;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    border-radius: 30px;
+}

@@ -1,0 +1,15 @@
+text = "python"
+reverse = ""
+
+for char in text:
+    reverse = char + reverse
+print(reverse)
+
+i = len(text) - 1
+
+while i >= 0:
+    reverse += text[i]
+    i -= 1
+
+print(reverse)
+

@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.img-box{
+    margin: 40px;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    background-image: url(../1SM/sea-sand-seashore-ocean-palms-blue-sky-traveling-to-resort-73337772.webp);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.4s;
+}
+.img-box:hover .overlay{
+    opacity: 2;
+}
+.img-box2{
+    margin: 40px;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    background-image: url(/1SM/mount.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden; 
+}
+.overlay2{
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.4s;
+}
+.img-box2:hover .overlay2{
+    opacity: 2;
+}
+.img-box3{
+     margin: 40px;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    background-image: url(/1SM/sunset.jpg);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden; 
+}
+.overlay3{
+    position: absolute;
+    inset: 0;
+    background: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: 0.4s;
+}
+.img-box3:hover .overlay3{
+    opacity: 100;
+}
+

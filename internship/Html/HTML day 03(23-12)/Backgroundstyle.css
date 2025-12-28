@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Title{
+    height: 100vh;
+    background-image: url(../1SM/Kitchen.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.hero{
+    width: 100%;
+    text-align: center;
+    padding: 60px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);   
+}
+.hero h1{
+    font-size: 80px;
+    color: white;
+    margin-bottom: 15px;
+    letter-spacing: 10px;
+    font-family: "Jersey 10", sans-serif;
+}
+.hero p{
+    color: wheat;
+    font-size: 30px;
+}
